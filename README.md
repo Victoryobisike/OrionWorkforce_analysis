@@ -1,11 +1,13 @@
 # Orion Data Systems Workforce Analytics Report
 
+![Header_image](<Orion Data Header.jpg>)
+
 ## Executive Summary 
 Orion Data Systems employs **107** staff across **11** active departments and **25** countries, with a total salary cost of **$691,400** and an average salary of **$6,462**. Nearly half of the workforce (47.7%, or 51 employees) earns above the company average, while 45.8% (49 employees) falls into the Low salary band (under $5,000).
 Three patterns stand out. Headcount is heavily concentrated in Shipping (45 staff) and Sales (34 staff), which together make up 73.8% of all employees, whereas 16 registered departments in the database have zero assigned staff. Pay varies widely across functions: Executive leads with an average salary of $19,333, while Shipping averages just $3,476;nearly six times lower. Geographically, Switzerland leads both department presence (5 departments) and total payroll ($75,100 across 11 staff). Auditing inactive departments, reviewing entry-level Shipping pay, and balancing global payroll allocation give leadership clear levers for workforce planning.
 
 ## Business Context 
-Orion Data Systems is a multinational consulting and technology firm headquartered in San Francisco with offices across Europe, Asia, and the Americas. As the organization manages employees across multiple countries, departments, and job roles, the HR & Strategy team needed reliable answers to core workforce questions. Management required a structured MySQL database analysis to evaluate department headcount, salary distributions, leadership spans, global payroll costs, and open job role gaps. 
+Orion Data Systems is a multinational consulting and technology firm headquartered in San Francisco with offices across **Europe, Asia, and the Americas**. As the organization manages employees across multiple countries, departments, and job roles, the HR & Strategy team needed reliable answers to core workforce questions. Management required a structured MySQL database analysis to evaluate department headcount, salary distributions, leadership spans, global payroll costs, and open job role gaps. 
 
 ## Objectives
 -	How are employees distributed across departments, and which department has the highest headcount?
@@ -39,7 +41,7 @@ The capstone MySQL database uses a normalized relational structure centered on t
 **View Complete SQL Script [here](https://github.com/Victoryobisike/OrionWorkforce_analysis/blob/main/Victory_Obisike_wk6.sql)**
 
 
-Data Cleaning and Transformation 
+## Data Cleaning and Transformation 
 All steps were completed in MySQL inside the capstone schema: 
 -	Created the capstone database schema and imported employees.csv, departments.csv, jobs.csv, and countries.csv as structured relational tables. 
 -	Verified primary key and row integrity across all four tables: confirmed 107 unique employee_id records, 27 unique department_id records, 19 unique job_id records, and 25 unique country_id records with zero duplicate rows and zero null values.
