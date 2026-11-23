@@ -36,7 +36,7 @@ The capstone MySQL database uses a normalized relational structure centered on t
 
 ![ERD](<Orion Systems ERD.png>)
 
-**[View Complete SQL Script (`Victory_Obisike_wk6.sql`)](https://github.com/YourUsername/Your-Repo-Name/blob/main/Victory_Obisike_wk6.sql)**
+**View Complete SQL Script [here](https://github.com/Victoryobisike/OrionWorkforce_analysis/blob/main/Victory_Obisike_wk6.sql)**
 
 
 Data Cleaning and Transformation 
